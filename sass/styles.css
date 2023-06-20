@@ -1,0 +1,145 @@
+h1 {
+  margin: 0;
+}
+
+.none {
+  display: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #333333;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+@media (max-width: 759px) {
+  .main-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 459px) {
+  .main-title {
+    font-size: 32px;
+  }
+}
+@media (max-width: 349px) {
+  .main-title {
+    font-size: 24px;
+  }
+}
+
+.date-now {
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+@media (max-width: 459px) {
+  .date-now {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+@media (max-width: 459px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 55px;
+}
+@media (max-width: 850px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 759px) {
+  .block {
+    margin-bottom: 23px;
+  }
+}
+
+.input {
+  width: 250px;
+  padding: 20px 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+  margin: 0 20px 8px 0;
+}
+@media (max-width: 759px) {
+  .input {
+    margin: 0 0 5px 0;
+  }
+}
+@media (max-width: 300px) {
+  .input {
+    width: 190px;
+  }
+}
+
+.lead {
+  color: #ffffff;
+}
+
+.get-date {
+  padding: 20px 15px;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 10px;
+  background: #FF3F3A;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.get-date:hover {
+  background: transparent;
+  border: 1px solid #FF3F3A;
+}
+
+.output-date {
+  margin: auto;
+  max-width: 300px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  padding: 20px 30px;
+}
+@media (max-width: 349px) {
+  .output-date {
+    max-width: 190px;
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=styles.css.map */
